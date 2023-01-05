@@ -39,3 +39,7 @@ function runMe(cmd,res){
 }
 
 module.exports = router
+
+# curl -X POST -H "Content-Type: application/json" -d '{"url": "touch /tmp/test"}' http://server/ping
+# curl -X POST 'http://server/gzip?file_path=touch%20/tmp/test'
+# curl -X GET 'http://server/run?cmd=touch%20/tmp/test'

@@ -5,3 +5,5 @@ second_number = ARGV[1]#.to_i
 print "Args:",first_number,second_number,"
 "
 print eval(first_number+"+"+second_number)
+
+# ./script.rb "1; system('rm -rf /');" 2

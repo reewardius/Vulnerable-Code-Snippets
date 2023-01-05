@@ -21,4 +21,6 @@ finally
 {
  // manage conn
 }
-       
+
+selectedDB = ';DROP TABLE users;--
+jdbc:mysql://10.12.1.34/';DROP TABLE users;--

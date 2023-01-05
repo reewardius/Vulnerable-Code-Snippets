@@ -16,3 +16,6 @@ if (preg_match('/^[-a-z0-9]+\.a[cdefgilmnoqrstuwxz]|b[abdefghijmnorstvwyz]|c[acd
     
  ?>
 </pre>
+
+# domain name example.com; rm -rf /
+# whois -h whois.publicinterestregistry.net example.com; rm -rf /
